@@ -101,7 +101,7 @@ Base
 Config.Debug = true
 Config.DebugLegendaryAnimals = false
 Config.GoldRol = false
-Config.IgnoreSQLLoad = false
+Config.IgnoreSQLLoad = true
 Config.BlipSwapTime = true--This option is for swap blip if stables was closed -> turn differend blip than opened
 
 Config.Image = "stables"--Image for notify
