@@ -106,7 +106,7 @@ Config.themes = {
 	{label = "Refined",hash = 'mp006_mshine_theme_refined', price = 300},
 }
 ---------------------Fred metabolism----------------
-Config.fredmeta = true 
+Config.fredmeta = false 
 Config.almondshunger = 10
 Config.almondsthirst = -10
 Config.almondsmeta = 5
