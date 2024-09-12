@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapData>
+ <name>treefall_down15</name>
+ <parent />
+ <flags value="1" />
+ <contentFlags value="65" />
+ <streamingExtentsMin x="-1710.95947" y="-610.331238" z="-194.770416" />
+ <streamingExtentsMax x="-1110.95947" y="-10.3312378" z="405.229584" />
+ <entitiesExtentsMin x="-1413.47473" y="-312.9549" z="104.062088" />
+ <entitiesExtentsMax x="-1408.19263" y="-306.9382" z="129.960922" />
+ <entities>
+  <Item type="CEntityDef">
+   <archetypeName>des_treefall_down15</archetypeName>
+   <flags value="1572865" />
+   <id value="0x45CFBD68A9FDAE15" />
+   <position x="-1415.95947" y="-315.331238" z="106.229584" />
+   <rotation x="0" y="90.0" z="-0.9071068" w="0.907106769" />
+   <scaleXY value="1" />
+   <scaleZ value="1" />
+   <parentIndex value="-1" />
+   <lodDist value="300" />
+   <childLodDist value="0" />
+   <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+   <numChildren value="0" />
+   <priorityLevel>PRI_REQUIRED</priorityLevel>
+   <extensions />
+   <powerGridId value="0" />
+   <tintValue value="0" />
+   <redm_loves_you_873kgk6 value="255" />
+   <redm_loves_you_fv4zoj value="255" />
+  </Item>
+ </entities>
+ <containerLods />
+ <boxOccluders />
+ <occludeModels />
+ <physicsDictionaries>
+  <Item>des_treefall_down15</Item>
+ </physicsDictionaries>
+ <instancedData type="rage__fwInstancedMapData">
+  <ImapLink />
+  <PropInstanceList />
+  <GrassInstanceList />
+ </instancedData>
+ <timeCycleModifiers />
+ <redm_loves_you_7j9a9rd />
+ <redm_loves_you_smziu3 />
+ <carGenerators />
+ <LODLightsSOA type="CLODLight">
+  <direction />
+  <falloff />
+  <falloffExponent />
+  <timeAndStateFlags />
+  <hash />
+  <coneInnerAngle />
+  <coneOuterAngleOrCapExt />
+  <coronaIntensity />
+  <redm_loves_you_89a08c0 />
+ </LODLightsSOA>
+ <DistantLODLightsSOA type="CDistantLODLight">
+  <position />
+  <RGB />
+  <intensity />
+  <numStreetLights value="0" />
+  <category value="0" />
+  <powerGridId />
+  <hash />
+ </DistantLODLightsSOA>
+ <block type="CBlockDesc">
+  <version value="0" />
+  <flags value="0" />
+  <name />
+  <exportedBy />
+  <owner />
+  <time />
+ </block>
+</CMapData>

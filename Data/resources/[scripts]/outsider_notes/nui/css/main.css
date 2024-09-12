@@ -1,0 +1,85 @@
+@import url(https://fonts.googleapis.com/css?family=Allura|Aladin);
+
+html {
+    overflow-y: hidden
+}
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+#main {
+    display: none;
+    margin-left: 32%;
+    margin-top: 10%;
+}
+
+#notepad {
+    height: 60vh;
+    width: 25vw;
+    overflow: hidden;
+    background-image: url(../img/oldpaper.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    opacity: 0.9;
+    line-height: 2vh;
+    font-size: 2vh;
+    font-family: 'normalbook';
+    color:
+        black;
+}
+
+textarea {
+    padding: 7vh 1px 1px 1px;
+    resize: none;
+    height: 56vh;
+    width: 19vw;
+    background: 0 0;
+    outline: 0;
+    border: none;
+    margin-right: 3vw;
+    transform: translate(3vw, 2vh);
+}
+
+.buttonClose {
+    background-color: #ccb076;
+    border-radius: 8px;
+    border: none;
+    color: #000;
+    padding: 1px 20px;
+    font-size: 0.9vw;
+    margin-left: 4vw;
+    margin-top: 1vh;
+    cursor: pointer;
+    font-family: fantasy;
+}
+
+.buttonClose:hover {
+    background-color: #10100fcc;
+    border: none;
+    color: #f6f0f0;
+}
+
+.button {
+    background-color: #ccb076;
+    border-radius: 8px;
+    border:
+        none;
+    color: #000;
+    padding: 0px 20px;
+    font-size: 0.9vw;
+    margin-left: 7vw;
+    margin-top: 1vh;
+    cursor:
+        pointer;
+    font-family:
+        fantasy;
+}
+
+.button:hover {
+    background-color: #10100fcc;
+    border: none;
+    color: #f6f0f0;
+}
