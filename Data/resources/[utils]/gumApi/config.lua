@@ -4,7 +4,7 @@ Config.EyeKey = 0x7C0162C0--Nil is disabled
 Config.EyeCommand = "target"--Command for open Eye targeting
 Config.EyePromptOnly = false--Prompt react only if you have opened Eye targeting
 
-Config.Framework = "GUM"
+Config.Framework = "VORP"
 --GUM, VORP, REDEM, REDEMREBOOT, QBR, RSG,  CUSTOM
 
 -- If you use CUSTOM framework, open serverData/serverCompCustom.lua
