@@ -1,0 +1,1118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+<archetypes>
+<Item type="CBaseArchetypeDef">
+   <loadFlags value="0x0000000000000000" />
+   <lodDist value="60" />
+   <flags value="0" />
+   <avoidanceflags value="0" />
+   <specialAttribute value="0" />
+   <bbMin x="-27.5283966" y="-31.60004" z="-20.141202" />
+   <bbMax x="27.5286388" y="31.5999775" z="20.1398067" />
+   <bsCentre x="0.000122070313" y="0" z="-0.0006971359" />
+   <bsRadius value="29.60809" />
+   <hdTextureDist value="32.82" />
+   <name>new_com_02_bank</name>
+   <textureDictionary>new_com_02_txd2</textureDictionary>
+   <clipDictionary />
+   <drawableDictionary />
+   <physicsDictionary>new_com_02_bank</physicsDictionary>
+   <assetType>ASSET_TYPE_DRAWABLE</assetType>
+   <assetName>new_com_02_bank</assetName>
+   <extensions>
+    <Item type="CExtensionDefStairs">
+     <name>BkPSCDA_0x6F78F13F</name>
+     <offsetPosition x="-9.161865" y="-4.26293945" z="-9.89423" />
+     <bottom x="-9.161865" y="-4.26293945" z="-9.89423" />
+     <top x="-8.52514648" y="-3.949585" z="-9.359726" />
+     <boundMin x="-10.0334473" y="-6.008911" z="-9.924229" />
+     <boundMax x="-7.44384766" y="-2.10791016" z="-9.359726" />
+     <steps itemType="CExtensionDefStep">
+      <Item>
+       <position x="-9.161865" y="-4.26293945" z="-9.765625" />
+       <width value="3.808077" />
+       <depth value="0.350749" />
+       <height value="0.128605" />
+       <forward x="0.9020871" y="0.431554049" z="0" />
+       <right x="-0.431554049" y="0.9020871" z="0" />
+      </Item>
+      <Item>
+       <position x="-8.845459" y="-4.11157227" z="-9.579018" />
+       <width value="3.808077" />
+       <depth value="0.358943" />
+       <height value="0.186607" />
+       <forward x="0.892377257" y="0.45129016" z="0" />
+       <right x="-0.45129016" y="0.892377257" z="0" />
+      </Item>
+      <Item>
+       <position x="-8.52514648" y="-3.949585" z="-9.359726" />
+       <width value="3.808077" />
+       <depth value="0.255491" />
+       <height value="0.219292" />
+       <forward x="0.896330237" y="0.443387121" z="0" />
+       <right x="-0.443387121" y="0.896330237" z="0" />
+      </Item>
+     </steps>
+    </Item>
+    <Item type="CExtensionDefStairs">
+     <name>TZSfFAA_0xF6576905</name>
+     <offsetPosition x="8.30639648" y="8.838989" z="-9.775375" />
+     <bottom x="8.30639648" y="8.838867" z="-9.97355652" />
+     <top x="8.594482" y="8.188232" z="-9.359718" />
+     <boundMin x="6.56030273" y="7.07763672" z="-9.981056" />
+     <boundMax x="10.47168" y="9.684692" z="-9.359718" />
+     <steps itemType="CExtensionDefStep">
+      <Item>
+       <position x="8.30639648" y="8.838867" z="-9.775375" />
+       <width value="3.778123" />
+       <depth value="0.377239" />
+       <height value="0.198181" />
+       <forward x="0.422152042" y="-0.9065251" z="0" />
+       <right x="0.9065251" y="0.422152042" z="0" />
+      </Item>
+      <Item>
+       <position x="8.453125" y="8.491333" z="-9.577194" />
+       <width value="3.778123" />
+       <depth value="0.334443" />
+       <height value="0.198181" />
+       <forward x="0.4224931" y="-0.906366169" z="0" />
+       <right x="0.906366169" y="0.4224931" z="0" />
+      </Item>
+      <Item>
+       <position x="8.594482" y="8.188232" z="-9.359718" />
+       <width value="3.778123" />
+       <depth value="0.344372" />
+       <height value="0.217476" />
+       <forward x="0.422699064" y="-0.906270146" z="0" />
+       <right x="0.906270146" y="0.422699064" z="0" />
+      </Item>
+     </steps>
+    </Item>
+    <Item type="CExtensionDefStairs">
+     <name>EEdmNBA_0xB0105C78</name>
+     <offsetPosition x="-7.75756836" y="16.7056885" z="-9.775375" />
+     <bottom x="-7.75756836" y="16.7055664" z="-9.972481" />
+     <top x="-7.45605469" y="16.0614014" z="-9.359718" />
+     <boundMin x="-9.779785" y="14.8155518" z="-9.97998" />
+     <boundMax x="-5.31005859" y="17.6828613" z="-9.359718" />
+     <steps itemType="CExtensionDefStep">
+      <Item>
+       <position x="-7.75756836" y="16.7055664" z="-9.775375" />
+       <width value="4.4" />
+       <depth value="0.366448" />
+       <height value="0.197105" />
+       <forward x="0.422152042" y="-0.9065251" z="0" />
+       <right x="0.9065251" y="0.422152042" z="0" />
+      </Item>
+      <Item>
+       <position x="-7.602783" y="16.3734131" z="-9.57827" />
+       <width value="4.4" />
+       <depth value="0.344791" />
+       <height value="0.197105" />
+       <forward x="0.422489017" y="-0.9063681" z="0" />
+       <right x="0.9063681" y="0.422489017" z="0" />
+      </Item>
+      <Item>
+       <position x="-7.45605469" y="16.0614014" z="-9.359718" />
+       <width value="4.4" />
+       <depth value="0.344803" />
+       <height value="0.218552" />
+       <forward x="0.422699064" y="-0.906270146" z="0" />
+       <right x="0.906270146" y="0.422699064" z="0" />
+      </Item>
+     </steps>
+    </Item>
+    <Item type="CExtensionDefStairs">
+     <name>sMYFRHA_0xFF877B69</name>
+     <offsetPosition x="7.763916" y="-16.6956787" z="-9.775375" />
+     <bottom x="7.763916" y="-16.6958" z="-9.972481" />
+     <top x="7.46240234" y="-16.0517578" z="-9.359718" />
+     <boundMin x="5.31689453" y="-17.6730957" z="-9.909981" />
+     <boundMax x="9.786377" y="-14.8062744" z="-9.359718" />
+     <steps itemType="CExtensionDefStep">
+      <Item>
+       <position x="7.763916" y="-16.6958" z="-9.775375" />
+       <width value="4.4" />
+       <depth value="0.366559" />
+       <height value="0.127105" />
+       <forward x="-0.422130942" y="0.9065349" z="0" />
+       <right x="-0.9065349" y="-0.422130942" z="0" />
+      </Item>
+      <Item>
+       <position x="7.609131" y="-16.3635254" z="-9.57827" />
+       <width value="4.4" />
+       <depth value="0.34457" />
+       <height value="0.197105" />
+       <forward x="-0.422463924" y="0.906379759" z="0" />
+       <right x="-0.906379759" y="-0.422463924" z="0" />
+      </Item>
+      <Item>
+       <position x="7.46240234" y="-16.0517578" z="-9.359718" />
+       <width value="4.4" />
+       <depth value="0.344496" />
+       <height value="0.218552" />
+       <forward x="-0.422699064" y="0.906270146" z="0" />
+       <right x="-0.906270146" y="-0.422699064" z="0" />
+      </Item>
+     </steps>
+    </Item>
+    <Item type="CExtensionDefStairs">
+     <name>mGRhrGA_0xF1C4DFE4</name>
+     <offsetPosition x="12.083252" y="0.649536133" z="-9.775375" />
+     <bottom x="12.083252" y="0.649414063" z="-9.90280151" />
+     <top x="11.7866211" y="1.28588867" z="-9.359718" />
+     <boundMin x="9.957031" y="-0.180175781" z="-9.910301" />
+     <boundMax x="13.78833" y="2.383545" z="-9.359718" />
+     <steps itemType="CExtensionDefStep">
+      <Item>
+       <position x="12.083252" y="0.649414063" z="-9.775375" />
+       <width value="3.7" />
+       <depth value="0.357164" />
+       <height value="0.127426" />
+       <forward x="-0.422152042" y="0.9065251" z="0" />
+       <right x="-0.9065251" y="-0.422152042" z="0" />
+      </Item>
+      <Item>
+       <position x="11.932373" y="0.973144531" z="-9.57795" />
+       <width value="3.7" />
+       <depth value="0.34504" />
+       <height value="0.197426" />
+       <forward x="-0.422489017" y="0.9063681" z="0" />
+       <right x="-0.9063681" y="-0.422489017" z="0" />
+      </Item>
+      <Item>
+       <position x="11.7866211" y="1.28588867" z="-9.359718" />
+       <width value="3.7" />
+       <depth value="0.344983" />
+       <height value="0.218231" />
+       <forward x="-0.422714919" y="0.906262755" z="0" />
+       <right x="-0.906262755" y="-0.422714919" z="0" />
+      </Item>
+     </steps>
+    </Item>
+    <Item type="CExtensionDefStairs">
+     <name>WFrchBA_0x520DA074</name>
+     <offsetPosition x="13.0646973" y="6.13439941" z="-9.775375" />
+     <bottom x="13.0644531" y="6.13427734" z="-9.902481" />
+     <top x="12.4277344" y="5.83764648" z="-9.34972" />
+     <boundMin x="11.42041" y="4.20251465" z="-9.909981" />
+     <boundMax x="13.8029785" y="7.644409" z="-9.34972" />
+     <steps itemType="CExtensionDefStep">
+      <Item>
+       <position x="13.0644531" y="6.13427734" z="-9.775375" />
+       <width value="3.270085" />
+       <depth value="0.356566" />
+       <height value="0.127105" />
+       <forward x="-0.9065572" y="-0.42208308" z="0" />
+       <right x="0.42208308" y="-0.9065572" z="0" />
+      </Item>
+      <Item>
+       <position x="12.7412109" y="5.98376465" z="-9.57827" />
+       <width value="3.270085" />
+       <depth value="0.345858" />
+       <height value="0.197105" />
+       <forward x="-0.9063732" y="-0.42247808" z="0" />
+       <right x="0.42247808" y="-0.9063732" z="0" />
+      </Item>
+      <Item>
+       <position x="12.4277344" y="5.83764648" z="-9.34972" />
+       <width value="3.270085" />
+       <depth value="0.34574" />
+       <height value="0.22855" />
+       <forward x="-0.9071257" y="-0.420859843" z="0" />
+       <right x="0.420859843" y="-0.9071257" z="0" />
+      </Item>
+     </steps>
+    </Item>
+   </extensions>
+   <guid value="0x0000000000000000" />
+   <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+  </Item>
+	<Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+     <loadFlags value="0x0000000000000000" />
+		<lodDist value="299" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="200.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>courthouse-sd3</name>
+      <textureDictionary>courthouse-sd3</textureDictionary>
+      <physicsDictionary>courthouse-sd3</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>courthouse-sd3</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	<Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+     <loadFlags value="0x0000000000000000" />
+		<lodDist value="299" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="200.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>courthouse-sd4</name>
+      <textureDictionary>courthouse-sd3</textureDictionary>
+      <physicsDictionary>courthouse-sd4</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>courthouse-sd4</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	<Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+     <loadFlags value="0x0000000000000000" />
+		<lodDist value="299" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="200.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>courthouse-sd5</name>
+      <textureDictionary>courthouse-sd3</textureDictionary>
+      <physicsDictionary>courthouse-sd5</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>courthouse-sd5</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	<Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+     <loadFlags value="0x0000000000000000" />
+		<lodDist value="299" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="200.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>courthouse-sd6</name>
+      <textureDictionary>courthouse-sd3</textureDictionary>
+      <physicsDictionary>courthouse-sd6</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>courthouse-sd6</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	<Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+     <loadFlags value="0x0000000000000000" />
+		<lodDist value="299" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="200.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>floor12_2</name>
+      <textureDictionary>floor12_1</textureDictionary>
+      <physicsDictionary>floor12_2</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>floor12_2</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	 <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+     <loadFlags value="0x0000000000000000" />
+		<lodDist value="299" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="200.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>kamin1</name>
+      <textureDictionary>kamin</textureDictionary>
+      <physicsDictionary>kamin1</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>kamin1</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	<Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+     <loadFlags value="0x0000000000000000" />
+		<lodDist value="299" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="200.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>kamin2</name>
+      <textureDictionary>kamin</textureDictionary>
+      <physicsDictionary>kamin2</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>kamin2</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	 <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <loadFlags value="0x0000000000000000" />
+		<lodDist value="299" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="200.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>leiste3</name>
+      <textureDictionary>saule3</textureDictionary>
+      <physicsDictionary>leiste3</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>leiste3</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	<Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <loadFlags value="0x0000000000000000" />
+		<lodDist value="299" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="200.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>leiste4</name>
+      <textureDictionary>saule3</textureDictionary>
+      <physicsDictionary>leiste4</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>leiste4</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	<Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <loadFlags value="0x0000000000000000" />
+		<lodDist value="199" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="200.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>pod1</name>
+      <textureDictionary>pod1</textureDictionary>
+      <physicsDictionary>pod1</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>pod1</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	<Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <loadFlags value="0x0000000000000000" />
+		<lodDist value="199" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="200.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>pod2</name>
+      <textureDictionary>pod1</textureDictionary>
+      <physicsDictionary>pod2</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>pod2</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	<Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <loadFlags value="0x0000000000000000" />
+		<lodDist value="199" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="200.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>pod3</name>
+      <textureDictionary>pod1</textureDictionary>
+      <physicsDictionary>pod3</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>pod3</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	<Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <loadFlags value="0x0000000000000000" />
+		<lodDist value="199" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="200.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>pod4</name>
+      <textureDictionary>pod1</textureDictionary>
+      <physicsDictionary>pod4</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>pod4</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	 <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <loadFlags value="0x0000000000000000" />
+		<lodDist value="299" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="200.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>propset1</name>
+      <textureDictionary>propset1</textureDictionary>
+      <physicsDictionary>propset1</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>propset1</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	 <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <loadFlags value="0x0000000000000000" />
+		<lodDist value="299" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="200.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>saule3</name>
+      <textureDictionary>saule3</textureDictionary>
+      <physicsDictionary>saule3</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>saule3</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	 <Item type="CBaseArchetypeDef">
+      <guid value="0" />
+    <loadFlags value="0x0000000000000000" />
+		<lodDist value="199" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="200.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>schild-hotel6</name>
+      <textureDictionary>schild-hotel6</textureDictionary>
+      <physicsDictionary>schild-hotel6</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>schild-hotel6</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	<Item type="CBaseArchetypeDef">
+      <guid value="0" />
+    <loadFlags value="0x0000000000000000" />
+		<lodDist value="199" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="200.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>schrank1</name>
+      <textureDictionary>schrank</textureDictionary>
+      <physicsDictionary>schrank1</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>schrank1</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	<Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <loadFlags value="0x0000000000000000" />
+		<lodDist value="199" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="200.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>schrank13</name>
+      <textureDictionary>schrank12</textureDictionary>
+      <physicsDictionary>schrank13</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>schrank13</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	<Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <loadFlags value="0x0000000000000000" />
+		<lodDist value="199" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="200.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>schrank14</name>
+      <textureDictionary>schrank12</textureDictionary>
+      <physicsDictionary>schrank14</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>schrank14</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	<Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <loadFlags value="0x0000000000000000" />
+		<lodDist value="199" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="200.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>schrank15</name>
+      <textureDictionary>schrank12</textureDictionary>
+      <physicsDictionary>schrank15</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>schrank15</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	<Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <loadFlags value="0x0000000000000000" />
+		<lodDist value="199" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="200.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>schrank16</name>
+      <textureDictionary>schrank12</textureDictionary>
+      <physicsDictionary>schrank16</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>schrank16</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	<Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <loadFlags value="0x0000000000000000" />
+		<lodDist value="199" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="200.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>schrank17</name>
+      <textureDictionary>schrank12</textureDictionary>
+      <physicsDictionary>schrank17</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>schrank17</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	<Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <loadFlags value="0x0000000000000000" />
+		<lodDist value="199" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="200.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>schrank18</name>
+      <textureDictionary>schrank12</textureDictionary>
+      <physicsDictionary>schrank18</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>schrank18</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	<Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <loadFlags value="0x0000000000000000" />
+		<lodDist value="199" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="200.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>schrank20</name>
+      <textureDictionary>schrank12</textureDictionary>
+      <physicsDictionary>schrank20</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>schrank20</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	<Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <loadFlags value="0x0000000000000000" />
+		<lodDist value="199" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="200.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>schrank22</name>
+      <textureDictionary>schrank12</textureDictionary>
+      <physicsDictionary>schrank22</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>schrank22</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	<Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <loadFlags value="0x0000000000000000" />
+		<lodDist value="199" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="200.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>schrank23</name>
+      <textureDictionary>schrank23</textureDictionary>
+      <physicsDictionary>schrank23</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>schrank23</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	<Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <loadFlags value="0x0000000000000000" />
+		<lodDist value="199" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="200.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>schrank24</name>
+      <textureDictionary>schrank23</textureDictionary>
+      <physicsDictionary>schrank24</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>schrank24</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	<Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <loadFlags value="0x0000000000000000" />
+		<lodDist value="199" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="200.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>schrank25</name>
+      <textureDictionary>schrank23</textureDictionary>
+      <physicsDictionary>schrank25</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>schrank25</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	 <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <loadFlags value="0x0000000000000000" />
+		<lodDist value="199" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="200.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>schrank26</name>
+      <textureDictionary>schrank26</textureDictionary>
+      <physicsDictionary>schrank26</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>schrank26</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	<Item type="CBaseArchetypeDef">
+      <guid value="0" />
+    <loadFlags value="0x0000000000000000" />
+		<lodDist value="199" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="200.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>schrank35</name>
+      <textureDictionary>schrank34</textureDictionary>
+      <physicsDictionary>schrank35</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>schrank35</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	<Item type="CBaseArchetypeDef">
+      <guid value="0" />
+    <loadFlags value="0x0000000000000000" />
+		<lodDist value="199" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="200.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>schrank39</name>
+      <textureDictionary>schrank39</textureDictionary>
+      <physicsDictionary>schrank39</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>schrank39</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	<Item type="CBaseArchetypeDef">
+      <guid value="0" />
+    <loadFlags value="0x0000000000000000" />
+   <lodDist value="299" />
+   <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="200.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>teppich1</name>
+      <textureDictionary>teppich1</textureDictionary>
+      <physicsDictionary>teppich1</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>teppich1</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	 <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <loadFlags value="0x0000000000000000" />
+		<lodDist value="199" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="200.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>teppich3</name>
+      <textureDictionary>teppich3</textureDictionary>
+      <physicsDictionary>teppich3</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>teppich3</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	<Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+     <loadFlags value="0x0000000000000000" />
+		<lodDist value="199" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="200.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>toilette1</name>
+      <textureDictionary>badewanne1</textureDictionary>
+      <physicsDictionary>toilette1</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>toilette1</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	<Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+     <loadFlags value="0x0000000000000000" />
+		<lodDist value="199" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="200.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>tuer1</name>
+      <textureDictionary>schrank</textureDictionary>
+      <physicsDictionary>tuer1</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>tuer1</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	<Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <loadFlags value="0x0000000000000000" />
+		<lodDist value="299" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="200.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>tuer-verkl</name>
+      <textureDictionary>tuer-verkl</textureDictionary>
+      <physicsDictionary>tuer-verkl</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>tuer-verkl</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	<Item type="CBaseArchetypeDef">
+      <guid value="0" />
+    <loadFlags value="0x0000000000000000" />
+		<lodDist value="199" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="200.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>tuer-verkl4</name>
+      <textureDictionary>tuer-verkl4</textureDictionary>
+      <physicsDictionary>tuer-verkl4</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>tuer-verkl4</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	<Item type="CBaseArchetypeDef">
+      <guid value="0" />
+    <loadFlags value="0x0000000000000000" />
+		<lodDist value="199" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="200.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>tuer-verkl5</name>
+      <textureDictionary>tuer-verkl5</textureDictionary>
+      <physicsDictionary>tuer-verkl5</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>tuer-verkl5</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	<Item type="CBaseArchetypeDef">
+      <guid value="0" />
+    <loadFlags value="0x0000000000000000" />
+		<lodDist value="199" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="200.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>wand-deko1</name>
+      <textureDictionary>schrank</textureDictionary>
+      <physicsDictionary>wand-deko1</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>wand-deko1</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	<Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <loadFlags value="0x0000000000000000" />
+		<lodDist value="199" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="200.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>wand-deko2</name>
+      <textureDictionary>wand-deko2</textureDictionary>
+      <physicsDictionary>wand-deko2</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>wand-deko2</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	<Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <loadFlags value="0x0000000000000000" />
+		<lodDist value="199" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="200.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>wand-deko3</name>
+      <textureDictionary>wand-deko3</textureDictionary>
+      <physicsDictionary>wand-deko3</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>wand-deko3</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	<Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <loadFlags value="0x0000000000000000" />
+		<lodDist value="199" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="200.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>zaun1-1</name>
+      <textureDictionary>zaun1</textureDictionary>
+      <physicsDictionary>zaun1-1</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>zaun1-1</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>courthouse-sd</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>
