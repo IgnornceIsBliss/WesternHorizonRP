@@ -58,8 +58,8 @@ Config = {
     --=============================================
 
     HideOnlyDEADEYE        = true,  -- Hides only the Dead Eye core in the UI.
-    HidePlayersCore        = false, -- Hides player cores in the UI.
-    HideHorseCores         = false, -- Hides horse cores in the UI.
+    HidePlayersCore        = true, -- Hides player cores in the UI.
+    HideHorseCores         = true, -- Hides horse cores in the UI.
 
     --=============================================
     --          WEBHOOK CONFIGURATIONS           --
@@ -77,7 +77,7 @@ Config = {
     --=============================================
 
 
-    HideUi                = false,      -- Shows or hides the overall UI.
+    HideUi                = true,      -- Shows or hides the overall UI.
     HideGold              = false,      -- Disables the Gold UI for all players.
     HideMoney             = false,      -- Disables the Money UI for all players.
     HideLevel             = false,      -- Disables the Level UI for all players.
@@ -164,10 +164,10 @@ Config = {
     --===========================================
     --    DISCORD RICH PRESENCE INTEGRATION    --
     --===========================================
-    appid                 = nil,                        -- Discord Application ID. Replace this with your own application's ID.
-    biglogo               = "LOGOname",                 -- Name of the image asset to use for the large icon in the rich presence.
+    appid                 = 1283701274545487923,                        -- Discord Application ID. Replace this with your own application's ID.
+    biglogo               = "large",                 -- Name of the image asset to use for the large icon in the rich presence.
     biglogodesc           = " Redm Server Connect: ",   -- Description displayed when hovering over the large icon.
-    smalllogo             = "smallboy name",            -- Name of the image asset for the small icon in the rich presence. This is optional.
+    smalllogo             = "small",            -- Name of the image asset for the small icon in the rich presence. This is optional.
     smalllogodesc         = "Join us for a good time ", -- Description displayed when hovering over the small icon.
     richpresencebutton    = "Join Discord",             -- Text displayed on the rich presence button.
     shownameandid         = true,                       -- Whether to display the player's Steam name and ID.
@@ -175,13 +175,13 @@ Config = {
         {
             text = 'Join Discord!',                     -- Text displayed on the first button.
             -- URL the first button directs to. Replace with your Discord invite link.
-            url = 'https://discord.gg/vorpcore'
+            url = 'https://discord.gg/convergence-rp-redm-1074823595697651862'
 
         },
         {
             text = 'Website', -- Text displayed on the second button.
             -- URL the second button directs to. Fill in with your website URL.
-            url = ''          -- Example for Rich Presence Button
+            url = 'https://www.google.com/'          -- Example for Rich Presence Button
         }
     },
     --=============================================
