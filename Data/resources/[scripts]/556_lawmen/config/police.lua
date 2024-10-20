@@ -1,6 +1,6 @@
 PoliceConfig = {}
 
-PoliceConfig.jobs = {"police","sheriff","sheriff_val","sheriff_bw","sheriff_sb","sheriff_tw","sheriff_rd","sheriff_an","sheriff_ad"} --jobs which are allowed to use the mechanisms
+PoliceConfig.jobs = {"deputy","police","sheriff","sheriff_val","sheriff_bw","sheriff_sb","sheriff_tw","sheriff_rd","sheriff_an","sheriff_ad"} --jobs which are allowed to use the mechanisms
 
 
 
@@ -19,22 +19,39 @@ PoliceConfig.hangLocations = {
 
 
 --hanging mechanism
-PoliceConfig.hangChardeath = true --should character die permanently (throw player back into char creation and delete char)
+PoliceConfig.hangChardeath = false --should character die permanently (throw player back into char creation and delete char)
 PoliceConfig.hangTimer = 60 --how long hanging until death in seconds
 
 --is imprisoned check
 PoliceConfig.ckeckCommand = "policeCheck" --check if nearest Player should be imprisoned
---badge
+
+--badges
 PoliceConfig.badgeCommand = "policeBadge" --comand to put badge on or off
 PoliceConfig.badgeItem = "badge_law" --item to put on badge
+
+PoliceConfig.Badges = {
+["s_badgedeputy01x"] = {jobs = {"police"}, ranks = {1, 2}},
+["s_badgesherif01x"] = {jobs = {"deputy"}, ranks = {1, 2}},
+["s_badgeusmarshal01x"] = {jobs = {"deputy"}, ranks = {1, 2}},
+["s_badgepinkerton01x"] = {jobs = {"deputy"}, ranks = {3, 4}},
+["s_badgepolice01x"] = {jobs = {"deputy"}, ranks = {1, 2}},
+}
+
 --turn prison alert off
 PoliceConfig.alertCommand = "policeAlert" --comand to put alert off
 
 --set Player prisoners Outfit
 PoliceConfig.clothingCommand = "policeClothing"
 
+--detective stuff to check player death cause
+PoliceConfig.detectiveJobs = PoliceConfig.jobs
+PoliceConfig.detectiveItem = "detectivebag"
+PoliceConfig.removedetectiveItem = false
+
 --alternative handcuffing
 PoliceConfig.handcuffCommand = "handcuff" --command to handcuff player by id or by playerselector
+
+PoliceConfig.fineCommand = "fine" --command to fine player by id or by playerselector
 
 --prisoners wagons
 PoliceConfig.wagonOffset = {x=3.0,y=3.0,z=0.5} --on which offset from character prompt is shown

@@ -1,21 +1,23 @@
 Config = {}
 
-Config.debug = false
+Config.debug = false -- turn true if you want to restart the script
 Config.fetchTimer = 1
 Config.adminGroups = {"admin"}
+Config.Framework = "vorp" -- vorp / rsg
 
 --Webhook
 Config.Logs         = true 
 Config.Discord      = true  --if you use discord whitelist
-Config.webhook      = "https://discord.com/api/webhooks/1025435654651392050/cVKcVzxDflvtcZhuqdOxP9i-XR0pFV0lOGgFtl6uXXW7Nq1_tPwQVeWiURhIQWV0U7PO"
+Config.webhook      = ""
 Config.webhookColor = 16711680 
-Config.name         = "twh_lawmen" 
+Config.name         = "lawmen" 
 Config.logo         = "https://via.placeholder.com/30x30" -- Header
 Config.footerLogo   = "https://via.placeholder.com/30x30" -- Footer
 Config.Avatar       = "https://via.placeholder.com/30x30" -- Avatar
 
 
 Config.playerselector = true --set to true if you want to use mega_playerselector for selecting players
+Config.robbery = {false, 50} -- if using robbery system how much infamy should player loose when being arrested to prison island
 
 Config.language = {
     transportPrompt = "Transport",
@@ -101,6 +103,13 @@ Config.language = {
     --handcuff
     handcuff = "Handschellen",
     drag = "Abführen",
+
+    --fine
+    fineSource = "You fined somebody",
+    fineTarget = "You got fined",
+
+    --detective
+    cause = "Cause:",
 
     --check
     check = "Inspizieren",
@@ -263,3 +272,21 @@ Config.respawnCoords = {x = 3376.2014160156 , y = -662.37066650391 , z = 45.2669
 
 
 Config.enableBasement = true --opens up the invicible wall and trapdoor in basement
+
+function ClNotify(title, text)
+    if Config.Framework == "vorp" then
+        TriggerEvent("vorp:NotifyLeft", title, text, "generic_textures", "star_outline", 4000)
+    end
+    if Config.Framework == "rsg" then
+            TriggerEvent('RSGCore:Notify', title, 'info')
+    end
+  end
+
+function SvNotify(src, title, text)
+    if Config.Framework == "vorp" then
+        TriggerClientEvent("vorp:NotifyLeft", src, title, text, "generic_textures", "star_outline", 4000)
+    end
+    if Config.Framework == "rsg" then
+            TriggerClientEvent('RSGCore:Notify', src, title, 'info')
+    end
+end

@@ -1,7 +1,7 @@
 MinijobsConfig = {}
 
-MinijobsConfig.useProgressbar = true
-MinijobsConfig.progressbar = "twh_progressBars" --change to "progressBars" if you use normal ones
+MinijobsConfig.useProgressbar = false
+MinijobsConfig.progressbar = "progressBars" --change to "progressBars" if you use normal ones
 
 
 MinijobsConfig.enableCotton = true

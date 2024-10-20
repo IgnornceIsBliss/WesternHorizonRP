@@ -31,8 +31,8 @@ EscapeRiddles = {
 	arrestTimeDecreaseAtSuccess = true, --when success to talk to a guard, then arrest time decreases
 	arrestTimeDecrease = 5, --how many minutes it decreases on success 
 
-	twh_social = true, --if you use twh social and want to increase talk chance by social level
-	talkChanceIncrease = 0.01, --how much to increase per level if twh_social is true
+	social = false, --if you use social level system and want to increase talk chance by social level
+	talkChanceIncrease = 0.01, --how much to increase per level if social is true
 
 	--Hint mechanic:
 	-- guards can give full code to a random codelock and prisoners one number of a random codelock if success
@@ -72,8 +72,8 @@ EscapeRiddles.easyWay = {
 		justTeleport = false, --if you just want to tp player out of prison after payment
     	teleportTo = {x = 3266.384765625 , y = -716.12829589844 , z = 41.035675048828,h =280.92},
 
-		--if you use twh_social
-		twh_social = true,
+		--if you use social level system
+		social = false,
 		levelNeeded = 0
 	}
 

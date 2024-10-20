@@ -29,7 +29,7 @@ var audio;
 		var dialMove		= function(e){
 			$(this).append( $('li:first-child', this))
 			TweenLite.fromTo(this, 0.35, {top:0}, {top:-50,ease: Power2.easeOut})
-            $.post(`http://twh_lawmen/clicked`, JSON.stringify({}));
+            $.post(`http://556_lawmen/clicked`, JSON.stringify({}));
 		}
 		lock.find('ol').on('click', dialMove)
 
@@ -41,10 +41,10 @@ var audio;
       document.getElementById("lock").setAttribute("data-dials", 3);
       
 			if (combo == comb) {
-                $.post(`http://twh_lawmen/closemenu`, JSON.stringify({}));
+                $.post(`http://556_lawmen/closemenu`, JSON.stringify({}));
 			}
             else{
-                $.post(`http://twh_lawmen/clickedfalse`, JSON.stringify({}));
+                $.post(`http://556_lawmen/clickedfalse`, JSON.stringify({}));
             }
 		}
 		enterBTN.on('click', checkLock)
@@ -55,7 +55,7 @@ var audio;
 window.addEventListener("keyup", function onEvent(event) {
     // Close menu when key is released
     if (event.key === "Backspace" || event.key ==="Escape") {
-        $.post(`http://twh_lawmen/close`, JSON.stringify({}));
+        $.post(`http://556_lawmen/close`, JSON.stringify({}));
 
     }
 });
